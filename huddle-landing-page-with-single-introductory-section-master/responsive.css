@@ -1,0 +1,46 @@
+@media screen and (max-width: 500px){
+  body{
+    overflow: auto;
+  }
+  .container{
+   background: var(--Violet) url(./images/bg-mobile.svg);
+  }
+  .container{
+    width: 96%;
+  }
+  .container{
+    flex-direction: column;
+    padding: 25px;
+    margin-bottom: 30px;
+  }
+  .left{
+    flex-basis: 100%;
+    text-align: center;
+  }
+  .logo img{
+    width: 170px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+  }
+  .banner img{
+    margin-bottom: -5%;
+  }
+  .right{
+    flex-basis: 100%;
+    justify-content: space-between;
+    text-align: center;
+  }
+  .right h2{
+    margin-bottom: 20px;
+    font-size: 35px;
+  }
+  .btn{
+    width: 45%;
+  }
+  .attribution{
+    width: 100%;
+    margin: 10px;
+    text-align: center;
+    margin-left: -3px;
+  }
+}
